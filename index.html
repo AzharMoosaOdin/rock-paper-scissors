@@ -5,9 +5,19 @@
 	<title>Rock Paper Scissors</title>
 </head>
 <body>
-<script rel="javascript">
-	console.log("test");
+<script>
+	function computerPlay() {
+		let option = ['Rock', 'Paper', 'Scissors'];
+		let randomNumber = Math.floor(Math.random() * Math.floor(3));
+		return option[randomNumber];
+	}
 
+	function playRound(playerSelection, computerSelection) {
+
+	}
+
+	console.log(computerPlay());
 </script>
+<h1>Rock Paper Scissors</h1>
 </body>
 </html>
